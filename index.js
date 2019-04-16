@@ -15,10 +15,10 @@ console.log(`
                                                                         by un4
 `.rainbow);
 
-var firstName = process.argv[2]; // 
+var arguname = process.argv[2]; // 
 (async () => {
 
-    const USERNAME = firstName;
+    const USERNAME = arguname;
     const BASE_URL = `https://www.instagram.com/${USERNAME}`;
 
     let response = await request(BASE_URL);
